@@ -35,8 +35,8 @@
         </div>
         <div class="row" >
             <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Contact number</label>
-                <input type="Number" class="form-control" id="inputEmail4" placeholder="Contact number" name="contact_no">
+                <label for="inputcontact4" class="form-label">Contact number</label>
+                <input type="Number" class="form-control" id="inputcontact4" placeholder="Contact number" name="contact_no">
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Date of Birth</label>
