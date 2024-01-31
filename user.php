@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 <?php include("topbar.php"); ?>
 <div class="container-fluid">
-    <form method="POST">
+    <form method="POST" action="user_process.php">
         <h1>user registration</h1>
         <div class="row">
             <div class="col-md-6">
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="pass" >
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="password" >
             </div>
         </div>
         <div>
@@ -30,7 +30,7 @@
             </div>
             <div>
                 <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="Address_2">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="address_2">
             </div>
         </div>
         <div class="row" >
@@ -74,10 +74,10 @@
                     <option value="user">USer</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <label for="inputPassword4" class="form-label">Registration Date</label>
                 <input type="date" class="form-control" id="inputPassword4" name="registration_date">
-            </div>
+            </div> -->
         </div>
         <div class="col-12">
             <button type="submit" class="btn btn-primary">submit</button>

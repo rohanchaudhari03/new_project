@@ -20,19 +20,18 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Password</th>
-                                            <th>Address 1</th>
-                                            <th>Address 2</th>
-                                            <th>Contact No</th>
-                                            <th>DOB</th>
-                                            <th>City</th>
-                                            <th>State</th>
-                                            <th>Pincode</th>
-                                            <th>Status</th>
-                                            <th>Role</th>
-                                            <th>Registration Date</th>
+                                            <th>name</th>
+                                            <th>email</th>
+                                            <th>password</th>
+                                            <th>address1</th>
+                                            <th>address2</th>
+                                            <th>contact_no</th>
+                                            <th>dob</th>
+                                            <th>city</th>
+                                            <th>state</th>
+                                            <th>pincode</th>
+                                            <th>status</th>
+                                            <th>role</th>
                                         </tr>
                                     </thead>
                                     
