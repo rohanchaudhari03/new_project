@@ -41,11 +41,12 @@ $role=$_POST['role'];
 print_r($role);
 // print_r($role);
 
-$sql = "INSERT INTO user_registration (first_name,last_name,email,password,address_1,address_2,contact_no,dob,city,state,pincode,status,role)
-VALUES ('$fname','$lname','$email','$password','$address1','$address2','$contact_no','$dob','$city','$state','$pincode','$status','$role')";
+$name = $fname.''.$lname;
+
+$sql = "INSERT INTO user_registration (name,email,password,address_1,address_2,contact_no,dob,city,state,pincode,status,role)
+VALUES ('$name','$email','$password','$address1','$address2','$contact_no','$dob','$city','$state','$pincode','$status','$role')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
   // echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;

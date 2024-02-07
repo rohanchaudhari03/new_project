@@ -5,7 +5,7 @@
 
 <?php 
   $sql="SELECT * FROM user_registration";
-  $result =mysqli_query($conn,$sql);
+  $result = mysqli_query($conn,$sql);
 ?>
 <!-- Begin Page Content -->
 <div class="container-fluid">
