@@ -3,10 +3,10 @@ include("connection.php");
 include("header.php");
 include("topbar.php");
 
-
 $user_id= $_REQUEST['user_id'];
 
-$sql = "UPDATE user_registration SET city='Doe' WHERE user_id=$user_id";
+$sql = "UPDATE user_registration WHERE user_id=$user_id";
+
 
 if (mysqli_query($conn, $sql)) {
 //   echo "Record updated successfully";
@@ -90,10 +90,10 @@ mysqli_close($conn);
                     <option value="user">USer</option>
                 </select>
             </div>
-            <!-- <div class="col-md-4">
+            <div class="col-md-4">
                 <label for="inputPassword4" class="form-label">Registration Date</label>
                 <input type="date" class="form-control" id="inputPassword4" name="registration_date">
-            </div> -->
+            </div>
         </div>
         <div class="col-12">
             <button type="submit" class="btn btn-primary">submit</button>
